@@ -5,12 +5,9 @@
 
 ## 生成可执行文件
 
-- 在window中运行`build.bat` 生成`linux`的可执行文件
+- 在window中运行`build-linux.bat` 生成`format.sh`的可执行文件
 
-- 在windows中直接执行如下命令生成`exe`可执行文件
-   ```sh
-   go build -o run.exe .
-   ```
+- 在windows中运行 `build-win.bat` 生成`format.exe`可执行文件
 
 ## 使用方式
 - 直接执行运行go代码
@@ -22,18 +19,18 @@
 - 可执行文件
    windows
   ```
-  run.exe -i aa.json
+  format.exe -i aa.json
   ```
   或 linux 中
   ```
-  run.sh -i aa.json
+  format.sh -i aa.json
   ```
    
 
 ## 参数
 ```sh
 run.exe --help
-Usage of run.exe:
+Usage of format.exe:
   -0 string
         格式化后的文件位置, 默认 out.json (default "out.json")
   -i string
