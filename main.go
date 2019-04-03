@@ -14,8 +14,9 @@ var (
 )
 
 func main() {
-	fmt.Println("****************** start *********************")
 	flag.Parse()
+	
+	fmt.Println("****************** start *********************")
 	fmt.Printf("input file is %s\n", input)
 	fmt.Printf("output file is %s\n\n", output)
 
