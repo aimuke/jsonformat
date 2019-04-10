@@ -1,4 +1,4 @@
-# jsonformat
+# jsonformat[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2699/badge)](https://bestpractices.coreinfrastructure.org/projects/2699)
 这个工具用于进行json的格式化
 
 主要是用于一些情况下需要比较两个json的时候，有时候两个json的字段顺序不一样，不便于进行比较。本工具主要是将输入的json先转化为对象，然后在将对象转化为字符串。由于使用相同的方式进行的转化，保证了json字段顺序的一致性。便于后续进行比较
